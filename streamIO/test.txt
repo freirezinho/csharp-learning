@@ -1,0 +1,4 @@
+Início.
+2a linha: Teste.
+3a: FileStream do C#, lendo este arquivo do começo ao fim.
+4a: Fim.
