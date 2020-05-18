@@ -45,7 +45,7 @@ namespace optimizedStringConcat
       // For 3 strings or less, + operator is faster than StringBuilder.
       Console.WriteLine("Method A perf: " + MethodADuration + " milliseconds.");
       Console.WriteLine("Method B perf: " + MethodBDuration + " milliseconds.");
-      //   Console.WriteLine("\nMethod B is " + (1f * MethodBDuration / MethodADuration) + " times slower.");
+      Console.WriteLine("\nMethod B is " + (1f * MethodBDuration / MethodADuration) + " times slower.");
     }
   }
 }
